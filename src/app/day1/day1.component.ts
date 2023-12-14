@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Day1Component {
 
+  num1:number=10;
+
 }
