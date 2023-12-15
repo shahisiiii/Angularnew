@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Day1Component } from './day1/day1.component';
 import { EventComponent } from './event/event.component';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { TwowayComponent } from './twoway/twoway.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     Day1Component,
-    EventComponent
+    EventComponent,
+    TwowayComponent
   ],
   imports: [
     BrowserModule,
