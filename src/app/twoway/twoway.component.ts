@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class TwowayComponent {
 
+  data:any=""
+
+  getData():void{
+    console.log(this.data);
+    
+  }
 }
