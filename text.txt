@@ -3,3 +3,5 @@
 current object calling ---this.variable(like self in python)
 
 ngModel 
+
+

@@ -6,14 +6,16 @@ import { AppComponent } from './app.component';
 import { Day1Component } from './day1/day1.component';
 import { EventComponent } from './event/event.component';
 import {FormsModule} from '@angular/forms';
-import { TwowayComponent } from './twoway/twoway.component'
+import { TwowayComponent } from './twoway/twoway.component';
+import { DirectivesComponent } from './directives/directives.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     Day1Component,
     EventComponent,
-    TwowayComponent
+    TwowayComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
