@@ -6,3 +6,21 @@
 </div>
 
 
+<table class="table table-borderd">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor="let i of arr">
+        <td>
+            {{i.id}}
+        </td>
+        <td>
+            {{i.name}}
+        </td>
+        <td>
+            {{i.email}}
+        </td>
+    </tr>
+</table>
