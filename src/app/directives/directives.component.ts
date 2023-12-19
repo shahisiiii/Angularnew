@@ -9,6 +9,7 @@ export class DirectivesComponent {
 
 
   s:any=true
+  num1:any=12
 
   arr:any[]=[
     {id:100,name:"shahis",email:"shahis@gmail.com"},

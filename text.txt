@@ -6,3 +6,15 @@ ngModel
 
 
 ngIf
+ngFor
+ngSwitch
+
+
+switch expresion{
+    case value1:
+    statement;
+    break;
+
+    default:
+    statement
+}

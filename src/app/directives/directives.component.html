@@ -25,3 +25,23 @@
         
     </tr>
 </table>
+
+
+<div [ngSwitch]="num1">
+    <div *ngSwitchCase="1">
+        one
+    </div>
+    <div *ngSwitchCase="3">
+        three
+    </div>
+    <div *ngSwitchCase="8">
+        eight
+    </div>
+    <div *ngSwitCase="12">
+      <h1>currect value </h1>
+    </div>
+    <div *ngSwitchDefault>
+        <h3>defualt value</h3>
+    </div>
+
+</div>
