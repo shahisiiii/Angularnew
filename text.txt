@@ -18,3 +18,9 @@ switch expresion{
     default:
     statement
 }
+
+
+attributeDirectives
+
+[ngStyle]="{'color':'red'}"
+[ngClass]='c1'
