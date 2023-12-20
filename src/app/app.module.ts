@@ -7,7 +7,8 @@ import { Day1Component } from './day1/day1.component';
 import { EventComponent } from './event/event.component';
 import {FormsModule} from '@angular/forms';
 import { TwowayComponent } from './twoway/twoway.component';
-import { DirectivesComponent } from './directives/directives.component'
+import { DirectivesComponent } from './directives/directives.component';
+import { AtributdirectivesComponent } from './atributdirectives/atributdirectives.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DirectivesComponent } from './directives/directives.component'
     Day1Component,
     EventComponent,
     TwowayComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    AtributdirectivesComponent
   ],
   imports: [
     BrowserModule,
