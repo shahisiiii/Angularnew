@@ -1,0 +1,9 @@
+<p>forms works!</p>
+
+
+<form #form1="ngForm" (ngSubmit)="getData(form1.value)">
+    <input type="text" placeholder="Enter your name" name="uname" ngModel required><br>
+    <input type="password" placeholder="Enter your password" name="psw" ngModel required><br>
+    <input type="submit" [disabled]="form1.invalid">
+
+</form>

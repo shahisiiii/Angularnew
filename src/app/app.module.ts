@@ -9,7 +9,8 @@ import {FormsModule} from '@angular/forms';
 import { TwowayComponent } from './twoway/twoway.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { AtributdirectivesComponent } from './atributdirectives/atributdirectives.component';
-import { PipeComponent } from './pipe/pipe.component'
+import { PipeComponent } from './pipe/pipe.component';
+import { FormsComponent } from './forms/forms.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PipeComponent } from './pipe/pipe.component'
     TwowayComponent,
     DirectivesComponent,
     AtributdirectivesComponent,
-    PipeComponent
+    PipeComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
