@@ -24,3 +24,7 @@ attributeDirectives
 
 [ngStyle]="{'color':'red'}"
 [ngClass]='c1'
+
+
+pipe
+
