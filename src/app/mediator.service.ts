@@ -5,5 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class MediatorService {
 
-  constructor() { }
+  constructor() {}
+
+   getValue(data:any):void{
+    console.log(data);
+    
+   }
 }

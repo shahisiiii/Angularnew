@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MediatorService } from '../mediator.service';
 
 @Component({
   selector: 'app-sender',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './sender.component.css'
 })
 export class SenderComponent {
+  getData(data:any):void{
+    console.log(data);
+  }
+
+  constructor(public m:MediatorService){}
+  
 
 }

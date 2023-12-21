@@ -7,6 +7,8 @@ import { DirectivesComponent } from './directives/directives.component';
 import { AtributdirectivesComponent } from './atributdirectives/atributdirectives.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { FormsComponent } from './forms/forms.component';
+import { SenderComponent } from './sender/sender.component';
+import { RecieverComponent } from './reciever/reciever.component';
 
 const routes: Routes = [
     {path:'d1',component:Day1Component},
@@ -15,7 +17,9 @@ const routes: Routes = [
     {path:'directives',component:DirectivesComponent},
     {path:'attributedirectives',component:AtributdirectivesComponent},
     {path:'pipes',component:PipeComponent},
-    {path:'forms',component:FormsComponent}
+    {path:'forms',component:FormsComponent},
+    {path:'sender',component:SenderComponent},
+    {path:'reciever',component:RecieverComponent},
 
 
 ];
