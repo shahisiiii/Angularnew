@@ -12,6 +12,8 @@ import { PipeComponent } from './pipe/pipe.component';
 import { FormsComponent } from './forms/forms.component';
 import {FormsModule} from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SenderComponent } from './sender/sender.component';
+import { RecieverComponent } from './reciever/reciever.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     DirectivesComponent,
     AtributdirectivesComponent,
     PipeComponent,
-    FormsComponent
+    FormsComponent,
+    SenderComponent,
+    RecieverComponent
   ],
   imports: [
     BrowserModule,

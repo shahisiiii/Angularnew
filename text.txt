@@ -43,3 +43,9 @@ form controlname
 
 
 import reactive forms module
+
+
+servises==
+
+
+sender(html  )-->  sender(ts)  -->  mediator(ts)  -->  reciever(ts)  -->  reciever(html)
