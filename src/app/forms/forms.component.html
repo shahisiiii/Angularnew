@@ -1,6 +1,6 @@
 <p>forms works!</p>
-<!-- 
 
+<!-- 
 <form #form1="ngForm" (ngSubmit)="getData(form1.value)">
     <input type="text" placeholder="Enter your name" name="uname" ngModel required #uname="ngModel"><br>
     <span *ngIf="(uname.touched)&&(uname.invalid)">* name required</span><br>
@@ -9,3 +9,9 @@
     <input type="submit" [disabled]="form1.invalid">
 
 </form> -->
+
+<form [formGroup]="form2" (ngSubmit)="show()">
+    <input type="text" placeholder="Enter your name" formControlName="uname" ><br>
+    <input type="password" placeholder="Enter your password" formControlName="psw" ><br>
+    <input type="submit">
+</form>
