@@ -37,4 +37,9 @@ angular forms
 
 template driven form---this is simple
 
-reactive form
+reactive form--
+formgroup, 
+form controlname
+
+
+import reactive forms module
