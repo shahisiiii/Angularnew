@@ -6,9 +6,12 @@ import { Injectable } from '@angular/core';
 export class MediatorService {
 
   constructor() {}
-
+  obj1:any={}
    getValue(data:any):void{
-    console.log(data);
+    console.log(data)
+    this.obj1=data
+    console.log(this.obj1);
+    
     
    }
 }

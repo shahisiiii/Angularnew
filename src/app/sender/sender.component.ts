@@ -8,8 +8,9 @@ import { MediatorService } from '../mediator.service';
 })
 export class SenderComponent {
   getData(data:any):void{
-    console.log(data);
-  }
+    console.log(data)
+    this.m.getValue(data) 
+   }
 
   constructor(public m:MediatorService){}
   
